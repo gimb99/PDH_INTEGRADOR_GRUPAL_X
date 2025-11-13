@@ -87,8 +87,8 @@ TODO - SOON
 - ...
 
 ## Información
-Integrantes: Gonzalo Barthou, Carmen Marylin Rodriguez, Tamara Peña
-Trabajo Integrador Grupal
-Materia: Técnicas de Procesamiento del Habla
-Institución: IFTS 24
-Año: 2025
+- Trabajo Integrador Grupal
+- Integrantes: Gonzalo Barthou, Carmen Marylin Rodriguez, Tamara Peña
+- Materia: Técnicas de Procesamiento del Habla
+- Institución: IFTS 24
+- Año: 2025
