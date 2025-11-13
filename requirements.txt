@@ -1,0 +1,22 @@
+# Este archivo lista todas las librerías que necesitas instalar.
+
+# LLM y Hugging Face
+transformers
+huggingface_hub
+langchain
+langchain-huggingface
+sentence-transformers
+torch
+
+# Vector DB
+chromadb
+
+# Interfaz
+streamlit
+
+# Carga de documentos
+PyPDF2
+unstructured  # Para manejar varios formatos (opcional, pero útil)
+
+# Otros
+python-dotenv  # Para variables de entorno
