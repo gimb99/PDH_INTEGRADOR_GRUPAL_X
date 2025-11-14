@@ -234,8 +234,8 @@ print("✅ Base de datos vectorial creada con éxito y guardada en:", persistenc
 # ====================================================
 # 🧠 Paso 5.1: Cargar base vectorial persistente y preparar el Retriever
 # ====================================================
-
-from langchain_community.vectorstores import Chroma
+# Ya importado
+#from langchain_community.vectorstores import Chroma
 
 # 🔄 Ruta donde guardaste la base de datos vectorial
 persistencia_vectores = "db_vectores"
@@ -250,50 +250,59 @@ chroma_db = Chroma(
 retriever = chroma_db.as_retriever(search_kwargs={"k": 3})
 
 # ✅ Validación
-print("✅ Retriever creado correctamente. Listo para recuperar chunks similares.")
+print("Retriever creado correctamente. Listo para recuperar chunks similares.")
 
 # =============================================
-# 🟪 Paso 5.2: Consulta de Prueba y Recuperación
+# 🟪 Paso 5.2: Consulta de Prueba y Recuperación (SIN RetrievalQA)
 # =============================================
-# Ya importada
-#from langchain_community.vectorstores import Chroma
-
-## GBG - Estos imports van a fallar si usas requirements.txt
-""" from langchain.chains import RetrievalQA
-from langchain.prompts import PromptTemplate
-from langchain_core.documents import Document 
-from langchain_community.chains import RetrievalQA
- """
-
-## Usar estos.
-from langchain.chains.retrieval import RetrievalQA
-
-from langchain_core.prompts import PromptTemplate
-from langchain_core.documents import Document
+# --- Imports actualizados ---
+# (Ya están arriba si los cambiaste antes)
+# from langchain_community.vectorstores import Chroma # <-- Ya debería estar
+# from langchain_huggingface import HuggingFaceEmbeddings # <-- Ya debería estar (o el nuevo import)
+# --- Fin Imports ---
 
 # 🧠 Cargamos la base vectorial persistida
+## modelo_embeddings ya estaba cargado mas arriba y es compatible con import nuevo
+
+# Si 'modelo_embeddings' fue definido antes como HuggingFaceEmbeddings, se puede reusar.
+# Si usaste el nuevo import, asegúrate de que 'modelo_embeddings' esté disponible.
+# Por ejemplo, si lo definiste así antes (con el nuevo import):
+# from langchain_huggingface import HuggingFaceEmbeddings
+# modelo_embeddings = HuggingFaceEmbeddings(
+#     model_name="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+# )
+# Entonces, 'modelo_embeddings' debería estar disponible aquí.
+
 chroma_db = Chroma(
     persist_directory="db_vectores",
     embedding_function=modelo_embeddings
 )
-
 # 🔍 Creamos el retriever (mecanismo de recuperación)
 retriever = chroma_db.as_retriever(
     search_type="similarity",  # También puedes usar "mmr" (Maximal Marginal Relevance)
     search_kwargs={"k": 3}      # Número de documentos más similares que queremos recuperar
 )
-
 # 🧪 Definimos una pregunta de prueba
 pregunta_prueba = "¿Qué técnicas se utilizan en el fracturamiento hidráulico de reservorios no convencionales?"
+# Recuperamos los documentos más relevantes usando el retriever directamente
 
-# 🔄 Recuperamos los documentos más relevantes
-resultados = retriever.get_relevant_documents(pregunta_prueba)
+#### GBG - Se intento con esta linea, pero da error, sugiriendo usar una funcion
+#### privada que no siempre funciona, y corremos riesgo de que rompa al mandarlo a huggingface
+#documentos_recuperados = retriever.get_relevant_documents(pregunta_prueba)
 
-# 🖨️ Mostramos los resultados
-print("📌 Resultados de la recuperación:\n")
-for i, doc in enumerate(resultados, 1):
+#### Prueba con otro metodo (invoke)
+documentos_recuperados = retriever.invoke(pregunta_prueba)
+
+# Mostramos los resultados (esto es parte del "Retrieval", antes de la "Generation")
+print("📌 Resultados de la recuperación:")
+for i, doc in enumerate(documentos_recuperados, 1):
     print(f"🔹 Documento {i}:")
     print(doc.page_content[:500])  # Muestra los primeros 500 caracteres
     print("📎 Metadata:", doc.metadata)
     print("-" * 80)
 
+# 🧠 Aquí termina la parte de "Retrieval" del RAG.
+# La parte de "Generation" (usar un LLM para responder la pregunta con el contexto recuperado)
+# se haría en otro paso, por ejemplo, en app.py, usando el retriever y un modelo de lenguaje.
+# Por ejemplo, podrías pasar 'documentos_recuperados' y 'pregunta_prueba' a una cadena RAG allí.
+print("Paso 5.2 completado. Se han recuperado los documentos relevantes.")
