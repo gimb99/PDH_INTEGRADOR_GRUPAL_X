@@ -45,3 +45,4 @@ data/
 
 # Modelos descargados localmente (si los usas localmente)
 models/
+test.py

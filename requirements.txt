@@ -20,3 +20,13 @@ unstructured  # Para manejar varios formatos (opcional, pero útil)
 
 # Otros
 python-dotenv  # Para variables de entorno
+
+# ti_ctg 
+pypdf 
+pymupdf
+sentencepiece
+sacremoses
+langchain-community
+langchain-text-splitters
+langchain-experimental
+langchain-core
