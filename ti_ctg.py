@@ -50,7 +50,7 @@ translator = pipeline("translation_en_to_es", model="Helsinki-NLP/opus-mt-en-es"
 # ======================================
 # 📁 2. Definimos las carpetas del corpus
 # ======================================
-carpetas_es = "./data/"
+carpetas_es = "./data/corpus_base"
 
 carpeta_en = "./data/complementos_tecnicos"
 
