@@ -1,0 +1,17 @@
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langdetect
+chromadb
+sentence-transformers
+transformers
+tokenizers
+torch
+pypdf
+python-dotenv
+requests
+fastapi
+uvicorn
+streamlit
+tqdm

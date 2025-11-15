@@ -1,0 +1,273 @@
+Kevin A. Schug, Ph.D.  
+Department of Chemistry & Biochemistry 
+The University of Texas at Arlington, Arlington, TX 76019 
+Case Study: 
+The Barnett Shale of North Texas 
+U.S.A.
+Acknowledgements 
+Zacariah Hildenbrand, Inform Environmental 
+Doug D. Carlton, Jr., UTA Chemistry & Biochemistry 
+Brian Fontenot, Independent Consultant 
+Laura Hunt, Independent Consultant 
+Jayme Walton, SWCA Environmental 
+Jonathan Thacker, UTA Chemistry & Biochemistry 
+Stephanie Korlie, UTA Chemistry & Biochemistry 
+Sabra Ramirez, UTA Chemistry & Biochemistry 
+Jesse Meik, Tarleton State University 
+Max Hu, UTA Earth & Environmental Sciences 
+Sandy Dasgupta, UTA Chemistry & Biochemistry 
+ Dasgupta group 
+Jeff Williams, UTA Communications 
+Sabrina Habib, UTA Communications 
+Financial/Material Support 
+Dan Hopkins 
+Bryan Bjorndal 
+Alexandra Osario 
+LANDOWNERS!
+2011: Lots of opinions, any data?
+Osborn, S. G., et al. Proc. Natl. Acad. Sci. 2011, 108, 8172-8176.  
+Elevated levels of methane;  
+Marcellus shale, PA 
+ 
+Geospatial relationship between 
+methane concentration and distance 
+to neighboring gas well 
+ 
+Evidence of deep thermogenic 
+methane contamination
+The Barnett 
+Shale 
+5000 mi2 
+17 counties 
+ 
+1986 – 1st hydraulic frac 
+ 
+2002-2012 – most 
+productive shale gas in 
+the U.S. 
+ 
+Jan. 2013 – 4.56 bcf/day, 
+which was 6.8% of U.S. 
+natural gas
+spring 2012, Arlington TX
+Ideal Experimental Approach 
+Baseline measurements for anthropogenic effects 
+ 
+Scheduled monitoring for changes/fluctuations over time  
+ 
+Targeted and untargeted analytical methods 
+ 
+Environmental forensics for sourcing
+
+Analytical Methodologies 
+• On-site water quality tests 
+ 
+• Total Organic Carbon/Total Nitrogen 
+• Gas Chromatography (Targeted and untargeted) 
+• Headspace – GC (Targeted and untargeted) 
+• ICP-OES Metals (Qualitative/Quantitative) 
+• ICP-MS Metals (Arsenic and Selenium) 
+• Ion Chromatography (Inorganic and Organic)
+Basic Water Quality 
+• pH 
+• Total Dissolved Solids 
+(TDS) 
+• Salinity 
+• Conductance 
+• Temperature 
+• Dissolved Oxygen (DO) 
+• Oxidation Reduction 
+Potential (ORP) 
+Wells purged at well head until 
+pH and temperature stable, 
+then samples collected and 
+water quality measured.
+Gas Chromatography – Mass Spectrometry  
+Method and QC 
+• Ethyl acetate extraction 
+ 
+• Enhanced sensitivity GC-MS (electron ionization) 
+• SIM/Scan for Targeted/Untargeted 
+• Rxi-5ms, standard 
+• T program, 40 – 300 0C, 13 minute run 
+ 
+Quality Control 
+• Triplicate analysis of samples 
+• Multi-level quality control spiked standards 
+• Blanks 
+• Secondary instruments and secondary laboratories
+Gas Chromatography Targets 
+Methanol 
+Ethanol 
+n-propanol 
+Isopropanol 
+n-Butanol 
+2-Ethylhexanol 
+2-Butoxy Ethanol 
+Propargyl Alcohol 
+Benzene 
+Toluene 
+Phenol 
+Benzylchloride 
+Ethylbenzene 
+0-, m-, & p-Xylenes 
+1,2,4-Trimethyl Benzene 
+1,3,5-Trimethyl Benzene 
+Isopropyl Benzene 
+d-Limonene 
+Naphthalene 
+1-Methyl Naphthalene 
+2-Methyl Naphthalene 
+1-Naphthol 
+2-Naphthol 
+Ethylene Glycol 
+Polyethylene Glycol 
+Propylene Glycol 
+Dipropylene Glycol 
+Monomethyl Ether 
+PEG 200 
+Glycerol 
+Acetophenone 
+Dimethylformamide 
+Glutaraldehyde 
+Acetaldehyde 
+Di(2-Ethylhexyl) Phthalate 
+Phthalic Anhydride 
+Bisphenol A 
+Dichloromethane
+ICP-OES Method 
+• Acidified (2% HNO3) and filtered water 
+ 
+• Qual/Semi-Quant/Quant method 
+– Up to 60 metals; UD relevant 
+– Matrix effects 
+– 5 min per sample, triplicate 
+– Standard addition, 3 points, multi-element std.
+Sampling Map 
+• 91 Active wells 
+• water well < 3 km of 
+gas well 
+ 
+• 9 reference wells  
+• In shale, > 20 km from 
+gas well 
+• Outside shale, ≈ 60 km 
+from gas well 
+Fontenot et al. Environ. Sci. Technol. 2013, 47, 10032–10040.
+Does Unconventional Drilling Affect 
+Private Well Water Quality in the 
+Barnett Shale?
+Elevated Levels of 
+of Arsenic 
+29 of the 91 samples in active 
+extraction areas contained 
+arsenic >10 μg/L 
+ 
+Highest concentration that was 
+detected was 161 μg/L 
+ 
+Arsenic was not found to be 
+elevated in any of the reference 
+sites 
+Fontenot et al. Environ. Sci. Tech. 2013, 47, 
+10032-10040.
+Geospatial analysis of TDS and Arsenic 
+Fontenot, B. E., et al. Environ. Sci. Tech. 2013, 47, 10032-10040.  
+TDS As 
+MCL (10 ppb)
+Explanations for Arsenic 
+Instances of arsenic contamination are highest 
+near hydraulic fracturing sites and in shallower 
+water wells 
+• Direct contamination not likely (e.g., flowback spills or 
+faulty casing)  
+• Indirect causes 
+• Scale/rust in wells – Increased pH and vibrations 
+• Lowered water table – Shallow wells shallower 
+ 
+More data needed 
+Time-lapse analysis before, during and after drilling
+Selenium and Strontium 
+Fontenot, B. E., et al. Environ. Sci. Tech. 2013, 47, 10032-10040.  
+Se Sr
+Barium 
+Fontenot, B. E., et al. Environ. Sci. Tech. 2013, 47, 10032-10040.
+Comparison to 
+historical data 
+Fontenot, B. E., et al. Environ. Sci. Tech. 2014, 48,  3597-3599 
+Se (1989 – 1999) 
+As (1989 – 1999) 
+As (TX Well Study)
+Significant Methanol and Ethanol 
+Dataf ile Name:78 02.gcd
+Sample Name:78
+0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 min
+0
+1
+2
+3mV
+FID2 
+MeOH 
+39 mg/L EtOH 
+8.6 mg/L 
+Dataf ile Name:71 03.gcd
+Sample Name:71
+0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 min
+0
+1
+2
+3
+mV
+FID2 
+MeOH 
+54 mg/L 
+EtOH 
+11 mg/L 
+Sourcing elevated alcohols difficult (anticorrosive vs. microbial metabolism vs. 
+other industrial waste) – Not correlated with distance to nearest well. 
+29 out of 91 wells had detectable MeOH and EtOH (range 1 – 329 mg/L) 
+? ? 
+? ?
+Ideal Experimental Approach 
+Baseline measurements for anthropogenic effects 
+ 
+Scheduled monitoring for changes/fluctuations over time  
+ 
+ Targeted and untargeted analytical methods 
+ 
+Environmental forensics for sourcing
+Time-Lapse Analysis in the Cline Shale 
+NOLAN COUNTY SCURRY COUNTY 
+40+ water wells sampled before, during, and 
+after unconventional drilling in Nolan county 
+Dec. 2012 Summer, 2014
+Barnett Shale Rd. 2 
+550 samples 
+County # 
+Collin 4 
+Cooke 40 
+Dallas 1 
+Denton 82 
+Ellis 25 
+Hill 14 
+Hood 60 
+Johnson 43 
+Montague 66 
+Parker 108 
+Somervell 19 
+Tarrant 47 
+Wise 41 
+63% Residential, 26% Municipal, 11% Agricultural
+Future Directions 
+Expand our reach into other shale formations 
+Across the United States, South America, Canada, and Europe 
+ 
+Expand our environmental analysis tool kit 
+Advance tailored analytical capabilities to characterize a wide range of 
+environmental events/catastrophes 
+ 
+Develop new technology and best management practices for 
+unconventional drilling 
+Remediation, recycling, appropriate waste disposal
+Thank You for Your Attention! 
+kschug@uta.edu
