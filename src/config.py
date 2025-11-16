@@ -6,6 +6,8 @@ en ingestión, embeddings, retrieval y la aplicación Streamlit.
 """
 
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # -------------------------
 # RUTAS PRINCIPALES
@@ -34,7 +36,7 @@ EMBEDDING_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 # MODELO DE GENERACIÓN
 # -------------------------
 # Para local podés usar uno liviano; para deploy en HF cambiamos por uno hospedado.
-GENERATION_MODEL = "meta-llama/Llama-3.2-1B-Instruct"
+GEMINI_MODEL = "models/gemini-2.0-flash"
 
 # -------------------------
 # PARÁMETROS DE CHUNKING
@@ -51,7 +53,10 @@ APP_TITLE = "Sistema de Búsqueda y Preguntas - Proyecto TPI"
 # HUGGINGFACE API KEY
 # -------------------------
 
-# Opción recomendada: usar variable de entorno
+HF_API_KEY = os.getenv("HF_API_KEY")
 
-HF_LLM_MODEL = "meta-llama/Llama-3.2-3B-Instruct"
+# -------------------------
+# HUGGINGFACE API KEY
+# -------------------------
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 

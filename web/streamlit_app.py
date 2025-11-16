@@ -2,7 +2,9 @@ import streamlit as st
 from src.vecstore import load_or_create_vectorstore
 from src.llm import ask_model
 
+
 # Configuración general
+st.cache_resource.clear()
 st.set_page_config(
     page_title="TP Integral - Sistema de Consulta",
     page_icon="🧠",

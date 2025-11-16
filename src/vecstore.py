@@ -16,7 +16,11 @@ def get_embedding_function():
     Retorna el modelo de embeddings configurado en config.py.
     Sentence-transformers multilingüe para soportar español e inglés.
     """
-    return HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
+    return HuggingFaceEmbeddings(
+    model_name=EMBEDDING_MODEL,
+    model_kwargs={"device": "cpu"}
+)
+
 
 
 def load_or_create_vectorstore():
