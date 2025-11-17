@@ -65,11 +65,11 @@ El sistema está dividido en dos fases:
 
 ## Corpus de Documentos
 - **Dominio**: Material educativo (documentos técnicos, manuales, papers y presentaciones). 
-- **Cantidad**: (Desarrollar)
+- **Cantidad**: Variable según instalación de usuario final
 - **Fuente**: Fuentes académicas o industriales (e.g., YPF, Tecpetrol)
 - **Formato**: [PDF, TXT]
 - **Idioma**: Español e Inglés
-- **Temas del corpus**: Técnicas de fracturamiento hidráulico, Producción en shale/tight formations, Parámetros de diseño y operación de pozos, Simulación de reservorios, Casos reales (e.g., Barnett Shale, Vaca Muerta), 
+- **Temas del corpus**: Técnicas de fracturamiento hidráulico, Producción en shale/tight formations, Parámetros de diseño y operación de pozos, Simulación de reservorios, Casos reales (e.g., Barnett Shale, Vaca Muerta)
 
 ---
 
