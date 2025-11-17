@@ -21,6 +21,7 @@ data/**        # ignorar TODO
 !data/         # excepto carpeta data
 !data/**/      # excepto subcarpetas
 !data/**/.gitkeep   # permitir gitkeep
+!data/diagrams # excepto carpeta de diagramas
 
 ####################################
 # PYTHON CACHE
