@@ -7,12 +7,9 @@ El usuario realiza preguntas y el sistema responde utilizando fragmentos reales 
 
 ## Objetivo del Proyecto
 
-El propósito del sistema es facilitar el análisis de documentación extensa permitiendo:
+El presente sistema RAG (Retrieval-Augmented Generation) tiene como objetivo principal facilitar el acceso a información técnica y académica sobre reservorios de hidrocarburos no convencionales a estudiantes de Ingeniería e ingenieros en formación o sin experiencia directa en operaciones de campo.
 
-- Consultar en español cualquier fragmento del corpus.
-- Recuperar automáticamente los pasajes más relevantes.
-- Generar respuestas contextualizadas mediante LLM (Gemini).
-- Mostrar las fuentes utilizadas para garantizar transparencia.
+A través de una interfaz intuitiva desarrollada en Streamlit, el usuario podrá realizar preguntas en lenguaje natural relacionadas con yacimientos no convencionales, fracturamiento hidráulico, estimulación, ingeniería de reservorios, producción y perforación, y obtener respuestas generadas por un modelo de lenguaje preentrenado de Hugging Face, enriquecidas con contexto extraído dinámicamente desde un corpus documental vectorizado.
 
 ---
 
@@ -63,6 +60,16 @@ El sistema está dividido en dos fases:
 - **Orquestación**: LangChain
 - **Interfaz**: Streamlit
 - **Deployment**: Hugging Face Spaces
+
+---
+
+## Corpus de Documentos
+- **Dominio**: Material educativo (documentos técnicos, manuales, papers y presentaciones). 
+- **Cantidad**: (Desarrollar)
+- **Fuente**: Fuentes académicas o industriales (e.g., YPF, Tecpetrol)
+- **Formato**: [PDF, TXT]
+- **Idioma**: Español e Inglés
+- **Temas del corpus**: Técnicas de fracturamiento hidráulico, Producción en shale/tight formations, Parámetros de diseño y operación de pozos, Simulación de reservorios, Casos reales (e.g., Barnett Shale, Vaca Muerta), 
 
 ---
 
@@ -127,6 +134,7 @@ GEMINI_API_KEY=TU_API_KEY_DE_GEMINI
 ```
 git clone https://github.com/gimb99/PDH_INTEGRADOR_GRUPAL_X.git
 cd PDH_INTEGRADOR_GRUPAL_X
+git fetch origin
 git checkout <rama-deseada> #develop2
 ```
 
