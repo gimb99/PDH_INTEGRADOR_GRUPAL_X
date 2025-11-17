@@ -20,8 +20,6 @@ El propósito del sistema es facilitar el análisis de documentación extensa pe
 
 El sistema está dividido en dos fases:
 
----
-
 ### 🔹 FASE OFFLINE — Preprocesamiento de documentos
 
 1. **Ingesta**
@@ -41,7 +39,6 @@ El sistema está dividido en dos fases:
    - Persistencia en ChromaDB (`vectorstore/`)
    - Metadata: `source`, `chunk_id`
 
----
 
 ### 🔹 FASE ONLINE — Respuesta a consultas
 
@@ -51,6 +48,21 @@ El sistema está dividido en dos fases:
 4. Construcción del prompt (contexto + pregunta)
 5. Generación con LLM (Gemini)
 6. Visualización + fuentes utilizadas
+
+---
+
+### Diagrama de Flujo
+![Diagrama de flujo de Pipeline](data/diagrams/diagrama_pipeline_nlp.png)
+
+---
+
+## Stack Tecnológico
+- **LLM**: Gemini
+- **Embeddings**: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+- **Vector Database**: ChromaDB
+- **Orquestación**: LangChain
+- **Interfaz**: Streamlit
+- **Deployment**: Hugging Face Spaces
 
 ---
 
@@ -217,8 +229,9 @@ http://localhost:8501
 
 ---
 
-## Equipo
-
-- Carmen
-- Gonzalo
-- Tamara
+## Información
+- Trabajo Integrador Grupal
+- Integrantes: Gonzalo Barthou, Carmen Marylin Rodriguez, Tamara Peña
+- Materia: Técnicas de Procesamiento del Habla
+- Institución: IFTS 24
+- Año: 2025
