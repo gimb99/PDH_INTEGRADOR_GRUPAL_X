@@ -18,8 +18,9 @@ vectorstore/**
 # DATA: ignoramos contenido, pero no las carpetas
 ####################################
 data/**        # ignorar TODO
-!data/         # excepto carpeta data
-!data/**/      # excepto subcarpetas
+#!data/         # excepto carpeta data
+#!data/texts/      # excepto subcarpetas texts
+!data/chunks/      # excepto subcarpetas chunks
 !data/**/.gitkeep   # permitir gitkeep
 !data/diagrams # excepto carpeta de diagramas
 
