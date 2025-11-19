@@ -1,6 +1,6 @@
 import streamlit as st
-from src.vecstore import load_or_create_vectorstore
-from src.llm import ask_model
+from vecstore import load_or_create_vectorstore
+from llm import ask_model
 
 
 # Configuración general

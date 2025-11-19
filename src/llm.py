@@ -1,6 +1,6 @@
 import google.generativeai as genai
-from src.config import GEMINI_API_KEY, GEMINI_MODEL
-from src.vecstore import get_retriever
+from config import GEMINI_API_KEY, GEMINI_MODEL
+from vecstore import get_retriever
 
 # Configurar API Key
 genai.configure(api_key=GEMINI_API_KEY)
