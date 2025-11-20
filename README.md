@@ -142,8 +142,6 @@ GEMINI_API_KEY=TU_API_KEY_DE_GEMINI
 ```
 git clone https://github.com/gimb99/PDH_INTEGRADOR_GRUPAL_X.git
 cd PDH_INTEGRADOR_GRUPAL_X
-git fetch origin
-git checkout <rama-deseada> #develop2
 ```
 
 ### 2️⃣ Crear y activar entorno virtual
