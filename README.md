@@ -5,6 +5,14 @@ El usuario realiza preguntas y el sistema responde utilizando fragmentos reales 
 
 ---
 
+## Demo
+
+El proyecto se encuentra actualmente desplegado en un HuggingFace Space dedicado. Puede probarse desde este enlace:
+
+https://huggingface.co/spaces/PDH-INTEGRADOR-GRUPAL-CTG/tp-integrador-ctg
+
+---
+
 ## Objetivo del Proyecto
 
 El presente sistema RAG (Retrieval-Augmented Generation) tiene como objetivo principal facilitar el acceso a información técnica y académica sobre reservorios de hidrocarburos no convencionales a estudiantes de Ingeniería e ingenieros en formación o sin experiencia directa en operaciones de campo.
