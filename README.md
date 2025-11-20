@@ -17,7 +17,7 @@ https://huggingface.co/spaces/PDH-INTEGRADOR-GRUPAL-CTG/tp-integrador-ctg
 
 El presente sistema RAG (Retrieval-Augmented Generation) tiene como objetivo principal facilitar el acceso a información técnica y académica sobre reservorios de hidrocarburos no convencionales a estudiantes de Ingeniería e ingenieros en formación o sin experiencia directa en operaciones de campo.
 
-A través de una interfaz intuitiva desarrollada en Streamlit, el usuario podrá realizar preguntas en lenguaje natural relacionadas con yacimientos no convencionales, fracturamiento hidráulico, estimulación, ingeniería de reservorios, producción y perforación, y obtener respuestas generadas por un modelo de lenguaje preentrenado de Hugging Face, enriquecidas con contexto extraído dinámicamente desde un corpus documental vectorizado.
+A través de una interfaz intuitiva desarrollada en Streamlit, el usuario podrá realizar preguntas en lenguaje natural relacionadas con yacimientos no convencionales, fracturamiento hidráulico, estimulación, ingeniería de reservorios, producción y perforación, y obtener respuestas generadas por un modelo de lenguaje preentrenado de Gemini, enriquecidas con contexto extraído dinámicamente desde un corpus documental vectorizado.
 
 ---
 
